@@ -31,7 +31,7 @@ const UserList = () => {
   return (
     <div className="container">
       {/* Display the title of the user list */}
-      <h1 className="title">User List</h1>
+      <h1 className="title">Users List</h1>
       {/* Render the list of users */}
       <ol className="userList">
         {/* Map through the users array and display each user's name */}
