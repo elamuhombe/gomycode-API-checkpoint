@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// Importing the UserList component
+import UserList from "./UserList";
 
+// App component
 function App() {
+  // Render the App component
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // The main container with the class name "App"
+    <div>
+      {/* Include the UserList component */}
+      <UserList />
     </div>
   );
 }
 
+// Export the App component as the default export
 export default App;
