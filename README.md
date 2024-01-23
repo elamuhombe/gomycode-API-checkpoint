@@ -7,5 +7,5 @@ This is a simple React project that demonstrates how to use Axios to fetch data 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-axios-example.git
-cd react-axios-example
+git clone http://github.com/elamuhombe/gomycode-API-checkpoint.git
+cd gomycode-API-checkpoint
